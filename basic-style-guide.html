@@ -1,0 +1,94 @@
+<!-- /// BANANA TEST PROJECT: INDEX.HTML ///
+/// by Theo du Plooy /// -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8"> 
+	<title>Banana Republic: Basic Styleguide</title>
+	<link rel="stylesheet" type="text/css" href="css/css/corecss.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="content/content.js"></script>
+	<script type="text/javascript" src="js/corejs.js"></script>
+	<noscript>Javascript appears to be disabled. This page requires Javascript to function. Please enable Javascript and try again.</noscript>
+	<style type="text/css">
+		body {
+			padding: 10px;
+			overflow: scroll;
+		}
+		body {
+			text-align: left;
+		}
+		.styleguidelabel {
+			background-color: black;
+			color: white;
+			margin-top: 20px;
+			margin-bottom: 5px;
+			display: inline-block;
+			font-weight: bold;
+			clear: both;
+			padding: 5px;
+			width: 100%;
+		}
+		h1,h2,h1.header-front-end-challenge {
+			margin-top: 0px!important;
+		}
+
+		.form-col-left,.form-col-right {
+			border: 1px solid red;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 class="header-front-end-challenge">Basic styleguide</h1>
+
+	<span class="styleguidelabel">Headers</span>
+	<h1 class="header-front-end-challenge">Standard header. Class header-front-end-challenge</h1>
+	<h2 class="header-front-end-challenge-sub">Sub header. Class header-front-end-challenge-sub</h2>
+	<p>Paragraph. All fonts: Arial. ccsvar: $primary-font-stack</p>
+
+	<span class="styleguidelabel">Button Cancel</span>
+	<br/>
+	<button class="button-cancel" title="Cancel will clear the form">Class button-cancel</button>
+	<div style="clear: both">
+	
+	<span class="styleguidelabel">Button Save</span>
+	<br/>
+	<button class="button-save" title="Save">Class button-save</button>
+	<div style="clear: both">
+
+
+	<span class="styleguidelabel">Basic colours:</span>
+	<div style="background-color: #ffd500">
+		Left panel colour: #ffd500
+		<br/>
+		cssvar: $panel-left-color
+	</div>
+
+	<span class="styleguidelabel">Slide panel colour</span>
+	<div style="background-color: #ff9200">
+		Slide panel colour: #ff9200
+		<br/>
+		cssvar: $panel-overlay-slide-background-color: #ff9200;
+	</div>
+
+	<span class="styleguidelabel">Main font colour</span>
+	<div style="color: #373d40 ">
+		Main font colour: $primary-font-color: #373d40;
+	</div>
+
+	<span class="styleguidelabel">Basic form grid (row, columns)</span>
+	<div class="form-row">
+		<div class="form-col-left">
+			class="form-col-left"
+		</div>
+		<div class="form-col-right">
+			class="form-col-right"
+		</div>
+	</div>
+
+</body>
+</html>
+
